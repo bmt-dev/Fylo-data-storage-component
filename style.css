@@ -13,18 +13,27 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
-    display: flex;
-
 }
 
 main {
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 70%;
     margin: auto;
+}
+
+.attribution {
+    min-height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-variant: small-caps;
+    letter-spacing: 0.3rem;
 }
 
 .left-box {
@@ -54,7 +63,7 @@ main {
 
 .right-box {
     background: #1D2C67;
-    border-radius: 20px;    
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
